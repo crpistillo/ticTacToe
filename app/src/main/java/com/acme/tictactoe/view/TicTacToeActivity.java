@@ -1,3 +1,5 @@
+//TODO: Esta es la implementacion de la vista, con referencias a Android
+
 package com.acme.tictactoe.view;
 
 import android.os.Bundle;
@@ -22,6 +24,7 @@ public class TicTacToeActivity extends AppCompatActivity implements TicTacToeVie
     private View winnerPlayerViewGroup;
     private TextView winnerPlayerLabel;
 
+    //TODO: Interactua con el presenter desde la vista (estan desacoplados)
     TicTacToePresenter presenter = new TicTacToePresenter(this);
 
     @Override

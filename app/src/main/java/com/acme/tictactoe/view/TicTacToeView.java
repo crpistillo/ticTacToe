@@ -1,3 +1,5 @@
+// TODO: Esta es la interfaz de la vista, totalmente desacoplada de su implementacion
+
 package com.acme.tictactoe.view;
 
 public interface TicTacToeView {

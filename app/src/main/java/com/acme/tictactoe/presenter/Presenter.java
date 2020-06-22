@@ -1,5 +1,5 @@
 package com.acme.tictactoe.presenter;
-
+//TODO: Presenter definido en una interfaz
 
 public interface Presenter {
 

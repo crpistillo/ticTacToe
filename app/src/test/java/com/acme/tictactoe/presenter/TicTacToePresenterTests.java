@@ -1,3 +1,5 @@
+//TODO: Tenemos la posibilidad de poder testear el presenter de una manera facil
+
 package com.acme.tictactoe.presenter;
 
 
@@ -21,6 +23,7 @@ public class TicTacToePresenterTests {
 
     private TicTacToePresenter presenter;
 
+    //TODO: Podemos mockear la vista sin tener que mockear todos los componentes que usemos de Android
     @Mock
     private TicTacToeView view;
 
