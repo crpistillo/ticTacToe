@@ -1,3 +1,5 @@
+// TODO: En el modelo no tenemos ningun import de Android ni nada, solo tenemos cosas relacionadas al modelo
+// (modelo limpio y testeado)
 package com.acme.tictactoe.model;
 
 import static com.acme.tictactoe.model.Player.O;

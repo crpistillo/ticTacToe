@@ -1,3 +1,7 @@
+//TODO: La vista y el controlador estan totalmente acoplados
+// Esto se ve porque esta el ViewGroup, View, Textview, todas cosas de vistas metidas en el controller
+// Vamos a tener que mockear todas las librerias de Android (no esta bueno)
+
 package com.acme.tictactoe.controller;
 
 import android.support.v7.app.AppCompatActivity;
